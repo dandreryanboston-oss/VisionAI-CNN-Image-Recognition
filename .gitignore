@@ -1,0 +1,52 @@
+
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Datasets
+dataset/
+*.zip
+
+# Model weights and training artifacts
+models/*.keras
+models/*.h5
+models/*.pt
+models/*.pth
+models/*.ckpt
+models/*.safetensors
+models/*.onnx
+models/*.pb
+models/*.tflite
+models/*.weights
+models/checkpoints/
+
+# Hugging Face and ML caches
+.cache/
+.cache/huggingface/
+huggingface_cache/
+.huggingface/
+hf_cache/
+
+# Local image samples
+db/
+
+# Credentials and private keys
+*.pem
+*.key
+credentials.json
+service-account*.json
+
+# IDE and temporary files
+.vscode/
+.pytest_cache/
+*.log
+.DS_Store
+Thumbs.db
